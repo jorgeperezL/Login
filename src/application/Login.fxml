@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="382.0" prefWidth="607.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@y.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutY="1.0" prefHeight="394.0" prefWidth="415.0" style="-fx-background-color: #9F33FFAA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="193.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton layoutX="113.0" layoutY="200.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="SIGN IN" textFill="#33e6ff" />
+            <JFXButton layoutX="25.0" layoutY="200.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="ABOUT US" textFill="#33e6ff" />
+            <Label layoutX="25.0" layoutY="164.0" prefHeight="25.0" prefWidth="159.0" text="Create Your Own Account   " textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox alignment="CENTER" layoutX="418.0" layoutY="-1.0" prefHeight="393.0" prefWidth="189.0" spacing="15.0">
+         <children>
+            <JFXTextField focusColor="#33e6ff" labelFloat="true" promptText="Nombre" />
+            <JFXTextField focusColor="#33e6ff" labelFloat="true" promptText="Apellido" />
+            <JFXTextField focusColor="#33e6ff" labelFloat="true" promptText="Apellido " />
+            <JFXTextField focusColor="#33e6ff" labelFloat="true" promptText="Username" />
+            <JFXPasswordField focusColor="#33e6ff" labelFloat="true" promptText="Contraseña" />
+            <JFXPasswordField focusColor="#33e6ff" labelFloat="true" promptText="Contraseña" />
+            <JFXTextField focusColor="#33e6ff" labelFloat="true" promptText="Email" />
+            <JFXToggleButton text="UNDER 18" textFill="#33e6ff" unToggleLineColor="#33e6ff" />
+            <JFXButton prefHeight="25.0" prefWidth="139.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="GET IT" textFill="#33e6ff" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
