@@ -11,7 +11,7 @@ import javafx.scene.layout.BorderPane;
 
 
 public class Main extends Application {
-	private AnchorPane mypane;
+	private AnchorPane mypane ;
 	public void start(Stage primaryStage) throws IOException {
 	
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("Login.fxml"));
