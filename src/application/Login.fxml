@@ -22,11 +22,11 @@
       </ImageView>
       <Pane layoutY="1.0" prefHeight="394.0" prefWidth="415.0" style="-fx-background-color: #9F33FFAA;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="193.0" AnchorPane.topAnchor="0.0">
          <children>
-            <JFXButton layoutX="113.0" layoutY="200.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="SIGN IN" textFill="#33e6ff" />
-            <JFXButton layoutX="25.0" layoutY="200.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="ABOUT US" textFill="#33e6ff" />
-            <Label layoutX="25.0" layoutY="164.0" prefHeight="25.0" prefWidth="159.0" text="Create Your Own Account   " textFill="WHITE">
+            <JFXButton layoutX="116.0" layoutY="214.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="SIGN IN" textFill="#33e6ff" />
+            <JFXButton layoutX="25.0" layoutY="214.0" style="-fx-border-color: #33E6FF; -fx-border-radius: 10; -fx-background-radius: 10;" text="ABOUT US" textFill="#33e6ff" />
+            <Label layoutX="25.0" layoutY="164.0" prefHeight="38.0" prefWidth="321.0" text="Create Your Own Account   " textFill="WHITE">
                <font>
-                  <Font size="13.0" />
+                  <Font size="26.0" />
                </font>
             </Label>
          </children>
